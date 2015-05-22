@@ -57,7 +57,7 @@ You can use the [sqlite3 driver for go][gosqlite].
 ### Defcon 3:
 
 Let's add fancy graphics. 
-Using [termbox][termboxgo] or [gocui][gocui] add some cool ansi graphics to the game.
+Using [termbox][termboxgo], [termui][termui] or [gocui][gocui] add some cool ansi graphics to the game.
 
 
 1. Draw the board, and refresh it instead of redrawing it everytime.
@@ -83,4 +83,5 @@ Let's allow people to play againt each other.
 [crypto_ssh]: http://godoc.org/golang.org/x/crypto/ssh
 [ssh_chat]: https://gist.github.com/drewolson/3950226
 [gocui]: https://github.com/jroimartin/gocui
+[termui]: https://github.com/gizak/termui
 
