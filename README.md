@@ -57,7 +57,8 @@ You can use the [sqlite3 driver for go][gosqlite].
 ### Defcon 3:
 
 Let's add fancy graphics. 
-Using [termbox][termboxgo] add some cool ansi graphics to the game.
+Using [termbox][termboxgo] or [gocui][gocui] add some cool ansi graphics to the game.
+
 
 1. Draw the board, and refresh it instead of redrawing it everytime.
 2. *Bonus* Allow the user to enter in the coordinates using the mouse.
@@ -81,4 +82,5 @@ Let's allow people to play againt each other.
 [termboxgo]: https://github.com/nsf/termbox-go "Pure Go Termbox Implementation"
 [crypto_ssh]: http://godoc.org/golang.org/x/crypto/ssh
 [ssh_chat]: https://gist.github.com/drewolson/3950226
+[gocui]: https://github.com/jroimartin/gocui
 
